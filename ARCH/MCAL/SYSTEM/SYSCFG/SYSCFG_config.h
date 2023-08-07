@@ -1,0 +1,51 @@
+/**************************************/
+/* Description : SYSCFG config h File */
+/* Author      : hossam               */
+/* Version     : 0.1V                 */
+/* Date        : 17:27:32  20 Jul 2023*/
+/* History     : 0.1V Initial Creation*/
+/**************************************/
+
+
+
+
+#ifndef SYSCFG_CONFIG_H
+#define SYSCFG_CONFIG_H
+
+
+#define BOOT_MEMORY								   SYSCFG__BOOT_MEMORY___MAIN_FLASH
+
+#define EXTERNAL_INTERRUPT_0_PORT                  SYSCFG__EXTERNAL_INTERRUPT_PORT___A
+#define EXTERNAL_INTERRUPT_1_PORT                  SYSCFG__EXTERNAL_INTERRUPT_PORT___B
+#define EXTERNAL_INTERRUPT_2_PORT                  SYSCFG__EXTERNAL_INTERRUPT_PORT___C
+#define EXTERNAL_INTERRUPT_3_PORT                  SYSCFG__EXTERNAL_INTERRUPT_PORT___D
+#define EXTERNAL_INTERRUPT_4_PORT                  SYSCFG__EXTERNAL_INTERRUPT_PORT___E
+#define EXTERNAL_INTERRUPT_5_PORT                  SYSCFG__EXTERNAL_INTERRUPT_PORT___H
+#define EXTERNAL_INTERRUPT_6_PORT                  SYSCFG__EXTERNAL_INTERRUPT_PORT___A
+#define EXTERNAL_INTERRUPT_7_PORT                  SYSCFG__EXTERNAL_INTERRUPT_PORT___B
+#define EXTERNAL_INTERRUPT_8_PORT                  SYSCFG__EXTERNAL_INTERRUPT_PORT___C
+#define EXTERNAL_INTERRUPT_9_PORT                  SYSCFG__EXTERNAL_INTERRUPT_PORT___D
+#define EXTERNAL_INTERRUPT_10_PORT                 SYSCFG__EXTERNAL_INTERRUPT_PORT___E
+#define EXTERNAL_INTERRUPT_11_PORT                 SYSCFG__EXTERNAL_INTERRUPT_PORT___H
+#define EXTERNAL_INTERRUPT_12_PORT                 SYSCFG__EXTERNAL_INTERRUPT_PORT___A
+#define EXTERNAL_INTERRUPT_13_PORT                 SYSCFG__EXTERNAL_INTERRUPT_PORT___B
+#define EXTERNAL_INTERRUPT_14_PORT                 SYSCFG__EXTERNAL_INTERRUPT_PORT___C
+#define EXTERNAL_INTERRUPT_15_PORT				   SYSCFG__EXTERNAL_INTERRUPT_PORT___D
+
+#define COMPENSATION_CELL_MODE					   SYSCFG__COMPENSATION_CELL___ENABLED_MODE
+
+#define ADC_NOISE_IMMUNITY_FROM_INTERNAL_FLASH_NOISES_STATE SYSCFG__STATE___ENABLE
+
+
+
+
+
+
+
+
+
+
+
+
+
+#endif
